@@ -33,14 +33,14 @@ The system provides book recommendations to users based on their ratings and sim
 - Uses dynamically allocated arrays for handling large, sparse datasets without STL containers.
 
 ### File Structure
-Book-Recommendation-System-Cpp/
-├── main.cpp             # Driver program (UI and main logic)
-├── BookList.h/.cpp      # BookList class for managing book details
-├── MemberList.h/.cpp    # MemberList class for managing user details
-├── RatingList.h/.cpp    # RatingList class for managing ratings
-├── books.txt            # Sample books data file
-├── ratings.txt          # Sample ratings data file
-└── README.md            # Project documentation
+Book-Recommendation-System
+   - main.cpp             # Driver program (UI and main logic)
+   - BookList.h/.cpp      # BookList class for managing book details
+   - MemberList.h/.cpp    # MemberList class for managing user details
+   - RatingList.h/.cpp    # RatingList class for managing ratings
+   - books.txt            # Sample books data file
+   - ratings.txt          # Sample ratings data file
+   - README.md            # Project documentation
 
 ### Key Concepts Learned
   - Dynamic Memory Allocation: Efficiently managing memory using pointers and dynamic arrays.
